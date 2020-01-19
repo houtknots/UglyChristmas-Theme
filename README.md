@@ -18,6 +18,7 @@
 ![Theme - Configuration](https://raw.githubusercontent.com/houtknots/UglyChristmas-Theme/master/docs/theme-profile.png)
 
 ## Installation
+
 ### Preparation
 1. Make sure that under the **configuration.yaml** file you have the following:
 
