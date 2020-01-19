@@ -17,7 +17,7 @@ uglychristmas:
   # Header
   primary-color: '#BB2528'                                                        
   text-primary-color: 'var(--text-color)'                                         
-  
+
   # Left Menu
   paper-listbox-background-color: 'var(--background-color)'                       
   sidebar-icon-color: 'var(--text-medium-color)'                                  
@@ -29,7 +29,7 @@ uglychristmas:
   primary-background-color: 'var(--background-color)'                             
   mdc-theme-primary: 'var(--accent-medium-color)'                                 
   card-background-color: 'var(--background-card-color)'                           
-  
+
   # Card
   paper-card-background-color: 'var(--background-card-color)'                     
   dark-primary-color: 'var(--text-color)'
@@ -44,7 +44,7 @@ uglychristmas:
   # Icons
   paper-item-icon-color: 'var(--text-dark-color)'                                 
   paper-item-icon-active-color: 'var(--accent-color)'                             
-  
+
   # Switches
   switch-checked-button-color: 'var(--text-medium-light-color)'                   
   switch-unchecked-button-color: 'var(--text-medium-light-color)'                 
@@ -56,6 +56,6 @@ uglychristmas:
   paper-slider-container-color: 'var(--text-dark-color)'                          
   paper-slider-knob-color: 'var(--text-medium-light-color)'                       
   paper-slider-knob-start-color: 'var(--text-medium-light-color)'                 
-  
+
   # Shadows
   ha-card-box-shadow: 'inset 0px 0px 0px 1px var(--border-color)'
