@@ -1,6 +1,5 @@
-#Ugly Christmas Theme
->Ugly Christmas Theme based on Clear Theme Dark
->https://community.home-assistant.io/t/clear-theme-dark/100960
+# Ugly Christmas Theme
+> Ugly Christmas Theme based on Clear Theme Dark https://community.home-assistant.io/t/clear-theme-dark/100960
 
 ## Screenshots
 ### Overview
