@@ -15,9 +15,10 @@ uglychristmas:
   border-color: ''
 
   # Header
-  primary-color: '#BB2528'
+  primary-color: '#FFFFFF'
   text-primary-color: 'var(--text-color)'
-
+  app-header-background-color: "#BB2528"
+  
   # Left Menu
   paper-listbox-background-color: 'var(--background-color)'
   sidebar-icon-color: 'var(--text-medium-color)'
