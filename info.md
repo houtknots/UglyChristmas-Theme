@@ -12,17 +12,17 @@
 ### Preparation
 1. Make sure that under the **configuration.yaml** file you have the following:
 
-<pre>
+```yaml
 frontend:
   themes: !include_dir_merge_named themes/
-</pre>
+```
 
 2. Under the Home Assistant **Config** folder, create a new folder named **themes**
-3. **Restart** Home assistant to apply the changes. 
+3. **Restart** Home assistant to apply the changes.
 
 ### HACS installation
-1. Go into the Community Store (HACS)
-2. Search for "Ugly Christmas Theme"
-3. Open the Theme 
-4. Press the "Install" button
-5. Restart Home-Assistant or go to services and trigger the frontend.reload_themes service.
+1. Within the Community Store (HACS) search for "Ugly Christmas Theme"
+2. Open the Theme
+3. Press the "Install" button
+4. Restart Home-Assistant or reload your themes
+5. Apply the theme from within your profile settings or set it as backend-selected theme.
