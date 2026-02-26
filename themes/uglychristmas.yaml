@@ -1,62 +1,118 @@
 uglychristmas:
-  #Ugly Christmas theme created by @houtknots | https://github.com/houtknots
-  #Ugly Christmas theme is based of the "Dark Clear Theme" made by @naofireblade | https://github.com/naofireblade
+  # Ugly Christmas theme created by @houtknots | https://github.com/houtknots
 
-  # Colors
-  text-color: '#FFFFFF'
-  text-medium-light-color: '#FFFFFF'
-  text-medium-color: '#FFFFFF'
-  text-dark-color: "#476954"
-  accent-color: '#F8CF29'
-  accent-medium-color: '#F8CF29'
-  background-color: '#165B33'
-  background-color-2: '#BB2528'
-  background-card-color: '#BB2528'
-  border-color: ''
+  modes:
+    dark:
+      # Palette (dark)
+      text-color: "#F7FFF9"
+      text-medium-light-color: "#EAF7EF"
+      text-medium-color: "#D3E9DB"
+      text-dark-color: "#2F5B45"
+      accent-color: "#FFD84A"
+      accent-medium-color: "#FFD84A"
+      background-color: "#0F4F2B"
+      background-color-2: "#B71F24"
+      background-card-color: "#8F1B1F"
+      border-color: "rgba(255, 255, 255, 0.12)"
 
-  # Header
-  primary-color: '#A0A0A0'
-  text-primary-color: 'var(--text-color)'
-  app-header-background-color: "#BB2528"
+      # Header
+      primary-color: "#A0A0A0"
+      text-primary-color: "var(--text-color)"
+      app-header-background-color: "#A61D22"
+      app-header-text-color: "var(--text-color)"
+      app-header-selection-bar-color: "var(--accent-color)"
 
-  # Left Menu
-  paper-listbox-background-color: 'var(--background-color)'
-  sidebar-icon-color: 'var(--text-dark-color)'
-  sidebar-selected-icon-color: 'var(--text-medium-light-color)'
-  sidebar-selected-text-color: 'var(--text-color)'
+      # Left Menu
+      sidebar-background-color: "var(--background-color)"
+      sidebar-icon-color: "rgba(247, 255, 249, 0.75)"
+      sidebar-selected-icon-color: "var(--text-color)"
+      sidebar-selected-text-color: "var(--text-color)"
 
-  # UI
-  paper-card-header-color: 'var(--text-color)'
-  primary-background-color: 'var(--background-color)'
-  mdc-theme-primary: 'var(--accent-medium-color)'
-  card-background-color: 'var(--background-card-color)'
+      # UI
+      primary-background-color: "var(--background-color)"
+      secondary-background-color: "var(--background-color-2)"
+      card-background-color: "var(--background-card-color)"
 
-  # Card
-  paper-card-background-color: 'var(--background-card-color)'
-  dark-primary-color: 'var(--text-color)'
-  primary-text-color: 'var(--text-color)'
-  paper-listbox-color: 'var(--text-color)'
-  light-primary-color: 'var(--text-dark-color)'
-  secondary-text-color: 'var(--text-medium-color)'
-  disabled-text-color: 'var(--text-dark-color)'
-  paper-dialog-button-color: 'var(--text-color)'
-  secondary-background-color: 'var(--background-color-2)'
+      # Card
+      ha-card-background: "var(--background-card-color)"
+      ha-card-border-color: "var(--border-color)"
+      primary-text-color: "var(--text-color)"
+      secondary-text-color: "var(--text-medium-color)"
+      disabled-text-color: "rgba(247, 255, 249, 0.45)"
 
-  # Icons
-  state-icon-color: 'var(--text-dark-color)'
-  state-icon-active-color: 'var(--accent-color)' # icon active
+      # Icons
+      state-icon-color: "rgba(247, 255, 249, 0.70)"
+      state-icon-active-color: "var(--accent-color)"
 
-  # Switches
-  switch-checked-button-color: 'var(--text-medium-light-color)'
-  switch-unchecked-button-color: 'var(--text-medium-light-color)'
-  switch-checked-track-color: '#F8CF29'
-  switch-unchecked-track-color: '#767682'
+      # Switches
+      switch-checked-button-color: "var(--text-color)"
+      switch-unchecked-button-color: "var(--text-medium-light-color)"
+      switch-checked-track-color: "var(--accent-color)"
+      switch-unchecked-track-color: "rgba(247, 255, 249, 0.28)"
 
-  # Slider
-  paper-slider-active-color: 'var(--accent-color)'
-  paper-slider-container-color: 'var(--text-dark-color)'
-  paper-slider-knob-color: 'var(--text-medium-light-color)'
-  paper-slider-knob-start-color: 'var(--text-medium-light-color)'
+      # Shadows / Borders
+      ha-card-box-shadow: "0 8px 24px rgba(0, 0, 0, 0.35), inset 0px 0px 0px 1px var(--border-color)"
 
-  # Shadows
-  ha-card-box-shadow: 'inset 0px 0px 0px 1px var(--border-color)'
+    light:
+      # Palette (light)
+      text-color: "#F7FFF9"
+      text-medium-light-color: "#EAF7EF"
+      text-medium-color: "#D3E9DB"
+      text-dark-color: "#2F5B45"
+      accent-color: "#FFD84A"
+      accent-medium-color: "#FFD84A"
+      background-color: "#1A7A42"
+      background-color-2: "#D4282E"
+      background-card-color: "#B52228"
+      border-color: "rgba(255, 255, 255, 0.18)"
+
+      # Header
+      primary-color: "#A0A0A0"
+      text-primary-color: "#F7FFF9"
+      app-header-background-color: "#C42228"
+      app-header-text-color: "#F7FFF9"
+      app-header-selection-bar-color: "#FFD84A"
+
+      # Left Menu
+      sidebar-background-color: "#1A7A42"
+      sidebar-icon-color: "rgba(247, 255, 249, 0.75)"
+      sidebar-selected-icon-color: "#F7FFF9"
+      sidebar-selected-text-color: "#F7FFF9"
+
+      # UI
+      primary-background-color: "#1A7A42"
+      secondary-background-color: "#D4282E"
+      card-background-color: "#B52228"
+
+      # Card
+      ha-card-background: "#B52228"
+      ha-card-border-color: "rgba(255, 255, 255, 0.18)"
+      primary-text-color: "#F7FFF9"
+      secondary-text-color: "#D3E9DB"
+      disabled-text-color: "rgba(247, 255, 249, 0.45)"
+
+      # Icons
+      state-icon-color: "rgba(247, 255, 249, 0.70)"
+      state-icon-active-color: "#FFD84A"
+
+      # Switches
+      switch-checked-button-color: "#F7FFF9"
+      switch-unchecked-button-color: "#EAF7EF"
+      switch-checked-track-color: "#FFD84A"
+      switch-unchecked-track-color: "rgba(247, 255, 249, 0.28)"
+
+      # Shadows
+      ha-card-box-shadow: "0 8px 24px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.18)"
+
+      # Forms / Dialogs
+      input-fill-color: "rgba(255, 255, 255, 0.12)"
+      input-ink-color: "#F7FFF9"
+      input-label-ink-color: "#D3E9DB"
+      input-idle-line-color: "rgba(247, 255, 249, 0.42)"
+      input-hover-line-color: "rgba(247, 255, 249, 0.70)"
+      input-focused-line-color: "#FFD84A"
+      input-focused-label-color: "#FFD84A"
+      input-dropdown-icon-color: "#F7FFF9"
+      text-field-background-color: "rgba(255, 255, 255, 0.10)"
+      dialog-background-color: "#1A7A42"
+      color-background-base: "#1A7A42"
