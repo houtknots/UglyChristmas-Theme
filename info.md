@@ -1,11 +1,5 @@
 # Ugly Christmas Theme
-> Ugly Christmas Theme based on Clear Theme Dark https://community.home-assistant.io/t/clear-theme-dark/100960
-
-## Screenshots
-### Overview
-![Theme - Overview](https://raw.githubusercontent.com/houtknots/UglyChristmas-Theme/master/docs/theme-overview.png)
-### Profile
-![Theme - Configuration](https://raw.githubusercontent.com/houtknots/UglyChristmas-Theme/master/docs/theme-profile.png)
+Ugly Christmas Theme that over time has evolved into a more beautifulish christmassy theme.
 
 ## Installation
 
@@ -26,3 +20,23 @@ frontend:
 3. Press the "Install" button
 4. Restart Home-Assistant or reload your themes
 5. Apply the theme from within your profile settings or set it as backend-selected theme.
+
+## Screenshots
+### Dark Mode
+#### Overview
+![Theme - Overview](./docs/dark/theme-overview.png)
+#### More info popup
+![Theme - Overview](./docs/dark/theme-overview-ac.png)
+#### Automation Editor
+![Theme - Overview](./docs/dark/theme-automation-editor.png)
+#### Map
+![Theme - Configuration](./docs/dark/theme-map.png)
+### Light Mode
+#### Overview
+![Theme - Overview](./docs/light/theme-overview.png)
+#### More info popup
+![Theme - Overview](./docs/light/theme-overview-ac.png)
+#### Automation Editor
+![Theme - Overview](./docs/light/theme-automation-editor.png)
+#### Map
+![Theme - Configuration](./docs/light/theme-map.png)

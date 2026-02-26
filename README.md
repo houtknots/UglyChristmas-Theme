@@ -1,19 +1,5 @@
 # Ugly Christmas Theme
-> Ugly Christmas Theme based on Clear Theme Dark https://community.home-assistant.io/t/clear-theme-dark/100960
-
-## Screenshots
-### Overview
-![Theme - Overview](https://raw.githubusercontent.com/houtknots/UglyChristmas-Theme/master/docs/theme-overview.png)
-### Logbook
-![Theme - Overview](https://raw.githubusercontent.com/houtknots/UglyChristmas-Theme/master/docs/theme-logbook.png)
-### Developer Tools
-![Theme - Overview](https://raw.githubusercontent.com/houtknots/UglyChristmas-Theme/master/docs/theme-developer-tools.png)
-### Configuration
-![Theme - Configuration](https://raw.githubusercontent.com/houtknots/UglyChristmas-Theme/master/docs/theme-configuration.png)
-### Profile
-![Theme - Configuration](https://raw.githubusercontent.com/houtknots/UglyChristmas-Theme/master/docs/theme-profile.png)
-### Map
-![Theme - Overview](https://raw.githubusercontent.com/houtknots/UglyChristmas-Theme/master/docs/theme-map.png)
+Ugly Christmas Theme that over time has evolved into a more beautifulish christmassy theme.
 
 ## Installation
 
@@ -25,7 +11,7 @@ frontend:
   themes: !include_dir_merge_named themes/
 ```
 
-2. Within the Home Assistant **Config** folder, create a new folder named **themes**
+2. Under the Home Assistant **Config** folder, create a new folder named **themes**
 3. **Restart** Home assistant to apply the changes.
 
 ### HACS installation
@@ -36,8 +22,29 @@ frontend:
 5. Apply the theme from within your profile settings or set it as backend-selected theme.
 
 ### Manual installation
-1. Within the Home assistant **themes** folder, create a file named `uglychristmas.yaml`
-2. In this GitHub repo, go into the **themes** folder, open the `uglychristmas.yaml` file and copy the contents
-3. Paste the contents in the `uglychristmas.yaml` file created under your Home Assistant themes folder
-4. Restart Home-Assistant or reload your themes
-5. Apply the theme from within your profile settings or set it as backend-selected theme.
+1. Within the Home assistant **themes** directory, create a direct named `uglychristmas` (or any name you like)
+2. Within the directory you created create a file named `uglychristmas.yaml`
+3. In this GitHub repo, go into the **themes** directory, open the `uglychristmas.yaml` file and copy the contents
+4. Paste the contents in the `uglychristmas.yaml` file created under your Home Assistant themes directory
+5. Restart Home-Assistant or reload your themes
+6. Apply the theme from within your profile settings or set it as backend-selected theme.
+
+## Screenshots
+### Dark Mode
+#### Overview
+![Theme - Overview](./docs/dark/theme-overview.png)
+#### More info popup
+![Theme - Overview](./docs/dark/theme-overview-ac.png)
+#### Automation Editor
+![Theme - Overview](./docs/dark/theme-automation-editor.png)
+#### Map
+![Theme - Configuration](./docs/dark/theme-map.png)
+### Light Mode
+#### Overview
+![Theme - Overview](./docs/light/theme-overview.png)
+#### More info popup
+![Theme - Overview](./docs/light/theme-overview-ac.png)
+#### Automation Editor
+![Theme - Overview](./docs/light/theme-automation-editor.png)
+#### Map
+![Theme - Configuration](./docs/light/theme-map.png)
